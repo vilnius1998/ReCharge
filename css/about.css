@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
+}
+
+#title {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+   z-index: 2;
+
+}
+#mpic {
+  width: 30%;
+  height: 30%;
+}
+
+#mname {
+  font-size: 20px;
+  padding-bottom: 12px;
+}
+
+#bname {
+  font-size: 20px;
+  padding-bottom: 12px;
+}
+h2{
+     text-align: center;
+     font-size: 72px;
+     margin-top: 3px;
+     margin-bottom: -15%;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    max-height: 400px;
+    margin: 50px;
+    display: inline-block;
+
+}
+
+
+.title {
+    color: #0e3434;
+    font-size: 18px;
+
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+#mpic {
+  border-radius: 100px;
+  width: 25px;
+  height: 50%;
+}
+
+#bpic {
+  border-radius: 200px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+#aboutbox {
+   width: 50%;
+   padding: 25px;
+   margin-left: 25%;
+   margin-right: 25%;
+   box-shadow: 0.2em 0.2em #888888;
+   background: #006464;
+   border-radius: 20px;
+}
+
+#abouttext {
+  color: white;
+}
+
+#logo {
+  width: 63px;
+  margin-right: 4px;
+}
+
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background: #50a3a2;
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+}
+body ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+body :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 300;
+}
+body :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 300;
+}
+.wrapper {
+  position: relative;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.wrapper.form-success .container h1 {
+  -webkit-transform: translateY(85px);
+          transform: translateY(85px);
+}
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 0;
+  padding: 80px 0;
+  text-align: center;
+  margin-bottom: -0px;
+  margin-top: 12%;
+  /* display: inline-block; */
+}
+
+.container h1 {
+  font-size: 40px;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-put;
+  font-weight: 200;
+  margin-top: 0px;
+}
